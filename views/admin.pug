@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+html(lang="en")
+     head
+          meta(charset="UTF-8")
+          meta(name="viewport", content="width=device-width, initial-scale=1.0")
+          title Document
+     body
+          form(action="/admin", method="post")
+               <input (type="text" name="name")/> name
+               <input (type="text" name="lastname")/> lastname
+               <input (type="text" name="birthday")/> date of birth
+               <input (type="number" name="tell")/> tell
+               <input (type="email" name="email")/> email
+               <input (type="password" name="password")/> password
+               <input (type="text" name="pic")/> pic
+               <input (type="text" name="trendency")/> trendency
+               <input (type="text" name="admin")/> admin
+               <input (type="text" name="description")/> description
+               <input (type="text" name="education")/> education
+               <input (type="text" name="grade")/> grade
+               <input (type="text" name="instructor")/> instructor
+               <input (type="text" name="mentor")/> mentor
+               button Send
+          form(action="/skills", method="post")
+               <input (type="text" name="user_skill")/> skill
+               <input (type="number" name="user_id")/> User ID
+               button Send
+          form(action="/experience", method="post")
+               <input (type="text" name="user_experience")/> experience
+               <input (type="number" name="user_id")/> User ID
+               button Send
+          form(action="/workpics", method="post")
+               <input (type="text" name="pics")/> Add Picture Address
+               <input (type="number" name="user_id")/> User ID
+               button Send

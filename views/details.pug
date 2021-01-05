@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+html(lang="en")
+     head
+          meta(charset="UTF-8")
+          meta(name="viewport", content="width=device-width, initial-scale=1.0")
+          link(rel="stylesheet", href="css/detailStyle.css")
+          link(rel="stylesheet", href="css/reset.css")
+          link(rel="stylesheet", href="fonts/f-a-4.7.0/css/font-awesome.min.css")
+          title User detail page
+     body
+          .container
+               .pic
+                    .frame
+                         img.internimage(src="img/reza.jpeg", alt="")
+
+               .about
+                    .aboutBox
+                         p ABOUT ME
+                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quo, voluptates error sit tenetur nemo inventore facere! Cupiditate exercitationem dolor, incidunt neque, architecto, alias cumque necessitatibus odio praesentium repellat voluptatem.
+                         p.name NAME: Reza
+                         p.lastname LASTNAME: Mousavi
+                         p.birthday DATE OF BIRTH: 13-DEC-1989
+                         p.universityEducation EDUCATION: Civil Engineer
+                         p.topSkils Backend Developer
+               .clearfix
+               .education
+                    .professionalSkils
+                         p PROFESSIONAL SKILLS:
+                         ul
+                              li _ HTML
+                              li _ CSS
+                              li _ JAVASCRIPT
+                              li _ NODEJS
+                              li _ PYTHON
+                              li _ SQL
+                              li _ NOSQL
+                              li _ GIT
+                    .workExperience
+                         p EXPERIENCE:
+                         ul
+                              li _ FREELANCER
+               .clearfix
+               .works
+                    p SOME OF MY WORKS
+                    ul
+                         li
+                              img(src="img/c.jpg", alt="first-work")
+                         li
+                              img(src="img/c.jpg", alt="first-work")
+                         li
+                              img(src="img/c.jpg", alt="first-work")
+               .contactUs
+                    p FOR HIRE PLEASE CONTACT US
+                    form(action="/interns", method="post")
+                         label(for="name") NAME
+                              input(type="text" name="name" placeholder="please insert your name or company name.")
+                         label(for="email") EMAIL
+                              input(type="text" name="email" placeholder="please insert your E-mail")
+                         textarea(name="note", cols="20", rows="10")
+                         button send now
+                              

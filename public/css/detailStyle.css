@@ -1,0 +1,206 @@
+clearfix{
+     float: none;
+     clear: both;
+}
+body{
+     background-color: #1c2028;
+}
+.container{
+     width: 1024px;
+     height: 400px;
+     margin: auto;
+     background-color:#22252c;
+     box-sizing: border-box;
+}
+.container .pic{
+     width: 424px;
+     height: 400px;
+     background-color: teal;
+     box-sizing: border-box;
+     display: inline-block;
+}
+.container .pic .frame{
+     width: 300px;
+     height: 300px;
+     margin-top: 50px;
+     margin-left: 62px;
+     background-color: white;
+     border: 5px solid black;
+     box-sizing: border-box;
+     display: inline-block;
+}
+.container .pic .frame .internimage{
+     width: 290px;
+     height: 290px;
+}
+.container .about{
+     float: right;
+     width: 600px;
+     height: 400px;
+     background-color: black;
+     box-sizing: border-box;
+}
+.container .about .aboutBox{
+     width: 400px;
+     height: 350px;
+     margin-left: 62px;
+     margin-top: 50px;
+}
+.container .about .aboutBox p{
+     color: #169f8c;
+     font-weight: bolder;
+     font-size: 25px;
+     margin-bottom: 20px;
+}
+.container .about .aboutBox Lorem{
+     color: #d3d3d5;
+     font-size: 17px;
+}
+.container .about .aboutBox .name{
+     margin-top: 20px;
+     color: #169f8c;
+     font-size: 17px;
+}
+.container .about .aboutBox .lastname{
+     margin-top: 20px;
+     color: #169f8c;
+     font-size: 17px;
+}
+.container .about .aboutBox .birthday{
+     margin-top: 20px;
+     color: #169f8c;
+     font-size: 17px;
+}
+.container .about .aboutBox .universityEducation{
+     margin-top: 20px;
+     color: #169f8c;
+     font-size: 17px;
+}
+.container .about .aboutBox .topSkils{
+     margin-top: 20px;
+     background-color: #169f8c;
+     font-size: 17px;
+     color: black;
+     margin-top: 0px;
+     display: inline-block;
+     padding: 5px;
+}
+.container .education{
+     width: 1024px;
+     background-color: #313741;
+     padding-top: 50px;
+}
+
+.container .education .professionalSkils{
+     display: inline-block;
+     width: 512px;
+     box-sizing: border-box;
+     padding-bottom: 10px;
+}
+.container .education .professionalSkils p{
+     font-size: 25px;
+     color: #169f8c;
+     font-weight: bolder;
+     margin: 20px 0 20px 10px;
+}
+.container .education .professionalSkils ul li{
+     color: #d3d3d5;
+     font-size: 17px;
+     margin: 5px 0 5px 10px;
+}
+.container .education .workExperience{
+     float: right;
+     width: 512px;
+     height: 100px;
+     box-sizing: border-box;
+}
+.container .education .workExperience p{
+     font-size: 25px;
+     color: #d3d3d5;
+     font-weight: bolder;
+     margin: 20px 0 20px 10px;
+}
+.container .education .workExperience ul li{
+     color: #169f8c;
+     font-size: 17px;
+     margin: 5px 0 5px 10px;
+}
+.container .works{
+     width: 1024px;
+     height: 400px;
+     margin-top: 50px;
+     background-color:black;
+}
+.container .works p{
+     position: relative;
+     left: 370px;
+     top: -12px;
+     color: #169f8c;
+     font-size: 25px;
+     font-weight: bolder;
+}
+.container .works ul{
+     width: 1024px;
+     height: 300px;
+     background-color: #169f8c;
+     margin-top: 25px;
+     padding-top: 20px;
+}
+.container .works ul li{
+     width: 274px;
+     height: 280px;
+     display: inline-block;
+     margin: 0 33px;
+}
+.container .works ul li img{
+     width: 274px;
+     height: 280px;
+}
+.container .contactUs{
+     margin-top: 50px;
+     width: 1024px;
+     height: 400px;
+     background-color:#22252c;
+}
+.container .contactUs p{
+     padding-top: 20px;
+     font-size: 25px;
+     font-weight: bolder;
+     margin-left: 300px;
+     color: #169f8c;
+     margin-bottom: 50px;
+}
+.container .contactUs form{
+     margin-left: 112px;
+}
+.container .contactUs form label{
+     font-size: 15px;
+     color:#169f8c;
+     margin-left: 10px;
+}
+.container .contactUs form label input{
+     margin-left: 20px;
+     width: 300px;
+     background-color: #313741;
+     color: #d3d3d5;
+     font-size: 15px;
+     border: none;
+}
+.container .contactUs form textarea{
+     display: block;
+     font-size: 15px;
+     background-color: #313741;
+     border: none;
+     width: 800px;
+     margin-top: 25px;
+     color:#d3d3d5 ;
+}
+.container .contactUs form button{
+     width: 100px;
+     margin: 30px 0 0 350px;
+     border: 2px solid #169f8c;
+     color: #169f8c;
+     background-color: #22252c;
+     font-size: 15px;
+     padding: 5px 0;
+}
